@@ -1,0 +1,164 @@
+body {
+	background-color: black;
+	background-image: url(imgs/f6774aa566531efd8c064f877c7c7b68_fitted_812x612.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+#page {
+
+}
+
+#header {
+	height: 100px;
+}
+
+#hLogo {
+	color: white;
+	font-family: "Egor";
+}
+
+#content {
+	display: grid;
+	grid-template-columns: 1fr 3fr 2fr;
+}
+
+#center {
+	background-color: lightgray;
+	border-radius: 10px;
+	padding: 10px;
+	width: 750px;
+}
+.post {
+	background-color: gray;
+	border-radius: 10px;
+	height: auto;
+	margin-bottom: 20px;
+	padding: 20px;
+	padding-bottom: 10px;
+}
+.postimg {
+	width: 90%;
+	height: 379px;
+}
+
+#right {
+	background-color: lightgray;
+	border-radius: 10px;
+	margin-left: 10px;
+	padding-top: 0px;
+    max-height: 679px;
+    float: left;
+    position: sticky;
+    position: -webkit-sticky;
+    width: 400px;
+}
+.button {
+	background-color: red;
+	border-radius: 10px;
+	height: 60px;
+	margin: 10px;
+	padding-left: 5%;
+	padding-top: 1px;
+	color: white;
+}
+.minibutton {
+	background-color: gray;
+	border-radius: 10px;
+	height: 60px;
+	width: 100px;
+	margin: 10px;
+	padding-left: 5%;
+	padding-top: 1px;
+	color: black;
+}
+#addpost > h3{
+	display: flex;
+	align-items: center;
+}
+
+.adds {
+	background-color: gold;
+	border-radius: 10px;
+	height: 300px;
+	margin: 10px;
+}
+
+#postEdit{
+	background-color: gray;
+	border-radius: 10px;
+	height: auto;
+	margin-bottom: 20px;
+	padding: 20px;
+	padding-bottom: 10px;
+}
+#editorTitle {
+	height: 70px;
+	width: auto;
+}
+
+#editorTitle > h3{
+	margin: 0px;
+}
+
+#editorText {
+	height: 330px;
+}
+
+#editorText>h3 {
+	margin: 0px;
+}
+
+textarea {
+	resize: none;
+}
+
+#hLogo > h1 {
+	
+}
+
+h3 {
+	
+}
+
+.post > p {
+	
+}
+
+@font-face {
+	// название шрифта(чтобы не запутаться лучше указать название папки со шрифтом) 
+	font-family: "Egor"; 
+	// адрес шрифта и тип 
+	src: url("../Egor.ttf") format("truetype"); 
+	font-style: normal; 
+	font-weight: normal; 
+} 
+
+img {
+	height: 50px;
+}
+
+p {
+	
+}
+
+a {
+	color: black;
+	text-decoration: none;
+
+}
+
+.stick {
+     	
+ 
+}
+
+
+.icon-burger:before {
+    content: "\e923"}
+
+.index {
+	color: white;
+	
+}

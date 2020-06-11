@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Обновка</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link href="https://fonts.googleapis.com/css2?family=Baloo+Paaji+2&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<div id="page">
+			<div id="header">
+				<div id="hLogo" align="center">
+					<h1>Sports News</h1>
+				</div>
+			</div>
+			
+			<div id="content">
+				<div id="center" width = "5000px">
+					<div class="post" id="p">
+						<h3>Sports News:
+							<h2 class="color-grey">22.03.2020</h2>
+						<a href="fourth.html"> Espanyol wants to save Chinese Wu Lei, they are interested in submarine clubs</a></h3>
+						<hr color="black">
+						<br>
+						<img class="postimg" src="131940_m.jpg" align="center">
+						
+					
+
+					<h3><h2 class="color-grey">22.03.2020</h2><a href="third.html">
+Luis Enrique compares Andrés Iniesta with Harry Potter</a></h3>
+					
+					<img class="postimg" src="iniesta_luis_enrique.jpg" align="center">
+					<!--<div class="minibutton" id="addpost" onclick="window.addEditor()">
+						<h3>Send</h3></div>-->
+					<h3><h2 class="color-grey">22.03.2020</h2><a href="seventh.html">
+
+In the Premier League can reduce the duration of matches</a></h3>
+										
+					<img class="postimg" src="61865118.png" align="center">
+
+
+					<h3><h2 class="color-grey">22.03.2020</h2><a href="">
+						Arshavin: in Leverkusen, “Zenith” lived in a real palace.
+					</a>
+					</h3>
+					<img class="postimg" src="imgs/images12345.jpg" align="center">
+
+
+					</div>
+				</div>
+
+				<div id="right" class="menu">
+					<a href="https://vk.com/public190320422"><img src="imgs/1200px-VK.com-logo.svg.jpg"></a>
+					<a href="https://www.instagram.com/lost_person_in_this_world/?hl=ru"><img src="imgs/unnamed.png"></a>
+					<div class="navbar-lang">
+												<a data-action="switch-lang" data-lang="en" href="index.html">RU</a><span> and </span><a class="current" href="second.html">EN</a>
+					<p> Through these links you can contact us</p>
+					<div class="button" id="butAbout">
+						<h3>follow me about links</h3>
+					</div>
+					<div class="button" id="portfolio">
+						<h3>is being processed</h3>
+					</div>
+					<div class="adds" id="reklama"><h3>This is where the leagues of European countries will be:</h3>
+					<a href="eleventh.html"> English Premier League</a>
+					<a href="twelfth.html">Europa League</a>
+					<a href="thirteenth.html">Champions League</a></div>
+				</div>
+			</div>
+		</div>
+	</body>
+	<!--<script type="text/javascript">
+		let post = `
+			<div class="post">
+				<h3>Example post</h3>
+				<hr color="black">
+				<br>
+				<img class="postimg" name="pimg" src="BG.jpg" align="center">
+				<p>text for example post</p>
+			</div>
+		`;
+		let postEditor = `
+			<div id="postEdit">
+				<div id="editorTitle">
+					<h3>Post title:</h3>
+					<textarea id="editorTitleText" cols="30" rows="1"></textarea>
+				</div>
+				<div id="editorText">
+					<h3>Post text:</h3>
+					<textarea id="editorTextText" cols="40" rows="20"></textarea>
+				</div>
+				<div id="editorImage">
+					<textarea id="editorImageName" cols="40" rows="1"></textarea>
+				</div>
+				<div class="minibutton" id="comleteEdit" onclick="window.removeEditor()">
+					<h3>Save post</h3>
+				</div>
+			</div>
+		`;
+
+		let butAddEditor = `
+			<div class="minibutton" id="addpost" onclick="window.addEditor()">
+				<h3>Add post</h3>
+			</div>
+		`;
+
+		let wall = document.getElementById('center');
+
+		function addEditor() {
+			wall.innerHTML = wall.innerHTML + postEditor;
+			
+			wall.removeChild(document.getElementById('addpost'));
+		}
+
+		function removeEditor() {
+			let info = document.getElementById('postEdit');
+			let title = document.getElementById('editorTitleText').value;
+			let text  = document.getElementById('editorTextText').value;
+			let filePath = document.getElementById('editorImageName').value;
+			
+			wall.removeChild(document.getElementById('postEdit'));
+			savePost(title,filePath,text);
+			wall.innerHTML = wall.innerHTML + butAddEditor;
+		}
+		function savePost(title,filePath,text) {
+			wall.innerHTML = wall.innerHTML +`
+				<div class="post">
+					<h3>${title}</h3>
+					<hr color="black">
+					<br>
+					<img class="postimg" name="pimg" src="imgs/${filePath}.jpg" align="center">
+					<p>${text}</p>
+				</div>
+			`;
+		}
+	</script>-->
+</html>

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Обновка</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link href="https://fonts.googleapis.com/css2?family=Baloo+Paaji+2&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<div id="page">
+			<div id="header">
+				<div id="hLogo" align="center"><div class="index">
+					<h1><a href = "index.html">Sports News</a></h1>
+				</div>
+				</div>
+			</div>
+			<div id="content">
+				<div id="center" width = "5000px">
+					<div class="post" id="p">
+
+						<h3>Спортивные новости:
+							<h2 class="color-grey">11.06.2020</h2>
+						<h3>«Вулверхэмптон» интересуется китайским форвардом «Эспаньола»</h3>
+						<hr color="black">
+						<br>
+						<img class="postimg" src="picture2133.jpg" align="center">
+						<p>«Вулверхэмптон» заинтересован в покупке нападающего «Эспаньола» У Лэя, сообщает Mundo Deportivo.</p>
+						<p>По информации источника, английский клуб планирует приобрести 28-летнего китайца в ближайшее трансферное окно. Сообщается, что сам игрок хотел бы остаться в «Эспаньоле».</p>
+						<p>У Лэй провел за «Эспаньол» 38 матчей в сезоне-2019/20, на его счету 7 голов и 1 результативная передача. Портал Transfermarkt.com оценивает стоимость форварда в 8 миллионов евро. Его контракт действует до конца 2020 года, однако у «Эспаньола» есть опция продления соглашения на еще один год.</p>
+
+
+
+					</div>
+					<!--<div class="minibutton" id="addpost" onclick="window.addEditor()">
+						<h3>Отправка</h3>
+					</div>-->
+				</div>
+
+				<div id="right" class="menu">
+					<div class="stick" data-stickyeah-offset="40">
+					<a href="https://vk.com/public190320422"><img src="imgs/1200px-VK.com-logo.svg.jpg"></a>
+					<a href="https://www.instagram.com/lost_person_in_this_world/?hl=ru"><img src="imgs/unnamed.png"></a>
+					<div class="navbar-lang">
+												<!--<a data-action="switch-lang" data-lang="en" href="index.html">RU</a><span> and </span><a class="current" href="second.html">EN</a>
+					<p> По этим ссылкам вы можете связаться с нами.</p>--><!-- Это переводчик с русса в ин яз)))))))))) -->
+					<div class="button" id="butAbout">
+						<h3>Обо мне все по ссылкам</h3>
+					</div>
+					<div class="button" id="portfolio">
+						<h3>Обрабатывется</h3>
+					</div>
+					<div class="adds" id="reklama">	<h3>Именно тут будут лиги европейских стран :</h3>
+					<a href="eleventh.html">АПЛ,</a>
+					<a href="twelfth.html">Лига Европы,</a>
+					<a href="thirteenth.html">Лига Чемпионов</a>
+				
+					
+
+
+				</div>
+			</div>
+		</div>
+	</div>
+		
+
+
+			</body>
+	<!--<script type="text/javascript">
+		let post = `
+			<div class="post">
+				<h3>Example post</h3>
+				<hr color="black">
+				<br>
+				<img class="postimg" name="pimg" src="BG.jpg" align="center">
+				<p>text for example post</p>
+			</div>
+		`;
+		let postEditor = `
+			<div id="postEdit">
+				<div id="editorTitle">
+					<h3>Post title:</h3>
+					<textarea id="editorTitleText" cols="30" rows="1"></textarea>
+				</div>
+				<div id="editorText">
+					<h3>Post text:</h3>
+					<textarea id="editorTextText" cols="40" rows="20"></textarea>
+				</div>
+				<div id="editorImage">
+					<textarea id="editorImageName" cols="40" rows="1"></textarea>
+				</div>
+				<div class="minibutton" id="comleteEdit" onclick="window.removeEditor()">
+					<h3>Save post</h3>
+				</div>
+			</div>
+		`;
+
+		let butAddEditor = `
+			<div class="minibutton" id="addpost" onclick="window.addEditor()">
+				<h3>Add post</h3>
+			</div>
+		`;
+
+		let wall = document.getElementById('center');
+
+		function addEditor() {
+			wall.innerHTML = wall.innerHTML + postEditor;
+			
+			wall.removeChild(document.getElementById('addpost'));
+		}
+
+		function removeEditor() {
+			let info = document.getElementById('postEdit');
+			let title = document.getElementById('editorTitleText').value;
+			let text  = document.getElementById('editorTextText').value;
+			let filePath = document.getElementById('editorImageName').value;
+			
+			wall.removeChild(document.getElementById('postEdit'));
+			savePost(title,filePath,text);
+			wall.innerHTML = wall.innerHTML + butAddEditor;
+		}
+		function savePost(title,filePath,text) {
+			wall.innerHTML = wall.innerHTML +`
+				<div class="post">
+					<h3>${title}</h3>
+					<hr color="black">
+					<br>
+					<img class="postimg" name="pimg" src="imgs/${filePath}.jpg" align="center">
+					<p>${text}</p>
+				</div>
+			`;
+		}
+	</script>
+-->
+</html>
